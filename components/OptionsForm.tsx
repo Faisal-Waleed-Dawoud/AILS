@@ -16,9 +16,9 @@ export default function OptionsForm({
   const labelClass = "text-[13px] mb-1.5 text-black dark:text-white";
 
   return (
-    <div className="grid grid-cols-3 gap-4 mb-8">
+    <div className="grid sm:grid-cols-3 gap-4 mb-8">
       <div className="flex flex-col">
-        <label className={labelClass}>Questions-Difficulty</label>
+        <label className={labelClass}>Questions Difficulty</label>
         <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)} className={selectClass}>
           <option value="Easy">Easy</option>
           <option value="Medium">Medium</option>
@@ -35,10 +35,10 @@ export default function OptionsForm({
       </div>
 
       <div className="flex flex-col">
-        <label className={labelClass}>Files Format</label>
+        <label className={labelClass}>File Format</label>
         <select value={format} onChange={(e) => setFormat(e.target.value)} className={selectClass}>
-          <option value="Word">Word</option>
-          <option value="PDF">PDF</option>
+          <option value="docx">Word</option>
+          <option value="pdf">PDF</option>
         </select>
       </div>
     </div>
