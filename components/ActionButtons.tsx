@@ -31,7 +31,7 @@ export default function ActionButtons({
             <Loader2 size={18} className="animate-spin" /> Generating...
           </span>
         ) : (
-          'Generate Files'
+          'Generate File'
         )}
       </button>
     </div>
