@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Lecture Summarizer (AILS)
 
-## Getting Started
+An AI-powered web platform that enables faculty members to record lectures and automatically generate summaries and review questions to improve the learning experience for students.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AILS simplifies lecture revision and academic note-taking by providing a centralized AI-driven system where:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Faculty members record lectures
+- AI converts lectures into structured summaries
+- Review questions are automatically generated
+- Students can quickly revise and understand lecture content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Problem
 
-To learn more about Next.js, take a look at the following resources:
+Traditional lecture revision is often:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Time-consuming
+- Dependent on manual note-taking
+- Difficult for students to organize
+- Inefficient for reviewing long lectures
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Students may miss important concepts during lectures, and reviewing recorded sessions can take hours.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Solution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AILS uses artificial intelligence and speech processing technologies to transform lecture recordings into:
+
+- Concise lecture summaries
+- Key concepts and important points
+- Automatically generated review questions
+- Organized learning material for faster studying
+
+This helps students learn more efficiently while supporting faculty members with modern educational tools.
+
+---
+
+# Features
+
+- Structured and organized AI-generated lecture summaries
+- Automatic review question generation
+- Lecture recording support
+- Clean and responsive UI
+- Fast and modern web experience
+
+---
+
+# Tech Stack
+
+## Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Demo
+You can try the website: https://ails.netlify.app/
