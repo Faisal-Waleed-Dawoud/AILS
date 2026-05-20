@@ -51,13 +51,5 @@ This helps students learn more efficiently while supporting faculty members with
 
 ---
 
-# Tech Stack
-
-## Frontend
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
 ## Demo
 You can try the website: https://ails.netlify.app/
